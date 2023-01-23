@@ -1,0 +1,96 @@
+@import "../variables.scss";
+
+#header .section {
+  display: flex;
+  position: relative;
+  margin-top: -96px;
+  padding-top: 0;
+  width: 100%;
+}
+
+#header .container {
+  width: 100vw;
+  max-width: 100vw !important;
+  padding: 0;
+}
+
+.carousel-item {
+  & img {
+    filter: brightness(0.5);
+    max-height: 93vh;
+  }
+}
+
+.carousel-caption {
+  bottom: 45%;
+  color: var(--primary);
+
+  & p {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+}
+
+.image-item {
+  & img {
+    filter: brightness(0.5);
+    max-height: 93vh;
+  }
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 51.25%;
+  width: 100%;
+  color: var(--primary);
+
+  & p {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: $tablet-resolution) {
+  .carousel-caption {
+    bottom: 35%;
+  }
+
+  .carousel-caption p {
+    font-size: 3em;
+  }
+}
+
+
+@media only screen and (max-width: $mobile-resolution) {
+  #header .section {
+    margin-top: 0;
+    padding-top: 60px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .carousel-caption {
+    bottom: 50;
+    left: auto;
+    right: auto;
+    width: 100%;
+  }
+
+  .carousel-caption p {
+    font-size: 2em;
+  }
+
+  .d-none {
+    display: block !important;
+  }
+
+  .image-caption { 
+    bottom: 30%;
+
+    p {
+      font-size: 2em;
+    }
+  }
+}

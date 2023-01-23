@@ -1,0 +1,37 @@
+<app-section id="footer">
+  <div class="footer">
+    <div class="row">
+      <div class="navbar-brand col-md-12">
+        <h2 class="no-margin"> {{'footer.title' | translate }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <h5>{{ 'footer.address.title' | translate | uppercase }}</h5>
+        <p [innerHTML]="'footer.address.content' | translate"></p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h5>{{ 'footer.phone.title' | translate | uppercase }}</h5>
+        <p [innerHTML]="'footer.phone.content' | translate"></p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h5>{{ 'footer.email.title' | translate | uppercase }}</h5>
+        <p [innerHTML]="'footer.email.content' | translate"></p>
+      </div>
+    </div>
+    <div class="mt-4">
+      <span>{{getYear()}}</span>
+      <span translate="footer.text1"></span>
+      <mat-icon class="heart red">favorite</mat-icon>
+      <span translate="footer.text2"></span>
+      <a href="https://fancywebsite.github.io" class="link" target="_blank">
+        <span translate="fancyweb"></span>
+      </a>
+    </div>
+    <div>
+      <a href="http://www.freepik.com" class="link" target="_blank">
+        <span translate="footer.text3"></span>
+      </a>
+    </div>
+  </div>
+</app-section>

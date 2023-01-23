@@ -1,0 +1,23 @@
+#sub-page .section {
+  padding-bottom: 0;
+}
+
+.item-desc {
+  margin-bottom: 4rem;
+
+  & > li {
+    text-align: left;
+    font-size: 18px;
+    color: var(--secondary-text);
+    font-family: var(--font-family-default);
+  }
+
+  & > li::marker {
+    content: "- ";
+    font-size: 1.2em;
+  }
+}
+
+.item-desc:last-child {
+  margin-bottom: 0;
+}

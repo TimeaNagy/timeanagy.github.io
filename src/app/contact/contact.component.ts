@@ -16,6 +16,7 @@ export class ContactComponent {
     this.formGroup = new FormGroup({
       name: new FormControl('', [Validators.required]),
       email: new FormControl('', [Validators.required]),
+      location: new FormControl('', [Validators.required]),
       phone: new FormControl('', [Validators.required]),
       message: new FormControl('', [Validators.required])
     });
@@ -35,7 +36,7 @@ export class ContactComponent {
     if (!this.formGroup.invalid) {
       const mailOptions = {
         subject: `Správa od ${this.formGroup.value.name}`,
-        text: `${this.formGroup.value.message}\n\nE-mailová adresa odosielateľa: ${this.formGroup.value.email}\n\nTelefónne číslo odosielateľa: ${this.formGroup.value.phone}`
+        text: `${this.formGroup.value.message}\n\nE-mailová adresa odosielateľa: ${this.formGroup.value.email}\n\nTelefónne číslo odosielateľa: ${this.formGroup.value.phone}\n\nLokalita odosielateľa: ${this.formGroup.value.location}`
       }
 
       this.mailService.sendMail(mailOptions)

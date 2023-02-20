@@ -18,6 +18,11 @@
           <mat-error *ngIf="hasPatternError('email')" translate="contact.form.pattern"></mat-error>
         </mat-form-field>
         <mat-form-field appearance="standard" floatLabel="always">
+          <mat-label translate="contact.form.location"></mat-label>
+          <input matInput name="Location" formControlName="location">
+          <mat-error *ngIf="hasRequiredError('location')" translate="contact.form.required"></mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="standard" floatLabel="always">
           <mat-label translate="contact.form.phone"></mat-label>
           <input matInput name="Phone" formControlName="phone">
           <mat-error *ngIf="hasRequiredError('phone')" translate="contact.form.required"></mat-error>

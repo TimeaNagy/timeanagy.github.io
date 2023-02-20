@@ -19,7 +19,6 @@ export class DealComponent implements OnInit{
 
   ngOnInit(): void {
     this.httpClient.get("assets/deals/deals.json").subscribe(data =>{
-      console.log(data);
       this.deals = data as Deal[];
     })
   }

@@ -17,6 +17,7 @@
   "contact.form.name": "",
   "contact.form.email": "",
   "contact.form.phone": "",
+  "contact.form.location": "",
   "contact.form.message": "",
   "contact.form.name.placeholder": "",
   "contact.form.email.placeholder": "",

@@ -1,19 +1,19 @@
-id;sk;
-fancyweb;FancyWeb;
-title;Klimatel;
+id;sk
+fancyweb;FancyWeb
+title;Klimatel
 
-navigation.header;Domov;
-navigation.contact;Kontakt;
-navigation.offering;Ponúkame;
-navigation.about-us;O nás;
-navigation.why-us;Prečo zvoliť nás?;
-navigation.deal;Akciové ponuky;
-navigation.sub-page;O produkte;
+navigation.header;Domov
+navigation.contact;Kontakt
+navigation.offering;Ponúkame
+navigation.about-us;O nás
+navigation.why-us;Prečo zvoliť nás?
+navigation.deal;Akciové ponuky
+navigation.sub-page;O produkte
 
 cookieMessage;Táto stránka používa súbory cookie. Kliknutím na tlačidlo "Povoliť" súhlasíte s ich používaním na uloženie zvoleného jazyka a na analýzu návštevnosti stránky.;Ez az oldal sütiket használ. Az "Engedélyezem" gombra kattintva elfogadja, hogy ezeket a kiválasztott nyelv mentésére és a weboldal forgalmának elemzésére használjuk.;This website uses cookies. By clicking the "Allow" button, you agree to their use to save the selected language and to analyze site traffic.
-cookieAllow;Povoliť;
-cookieDeny;Odmietnuť;
-cookiePolicy;Zásady používania súborov cookie;
+cookieAllow;Povoliť
+cookieDeny;Odmietnuť
+cookiePolicy;Zásady používania súborov cookie
 
 
 topContact.address1;Kráľová nad Váhom 702, 
@@ -22,9 +22,9 @@ topContact.email;klimatel@klimatel.sk
 topContact.tel;+421 910 870 087
 topContact.hours;Po-Pia: 8:00 - 15:30
 
-header.header1;rekuperácie
-header.header2;klimatizácie
-header.header3;tepelné čerpadlá
+header.header1;rekuperácia
+header.header2;klimatizácia
+header.header3;tepelné čerpadlo
 
 aboutUs.title;o nás
 aboutUs.desc;Ponúkame Vám komplexné, energeticky úsporné riešenia šité na mieru. Vykurovanie, chladenie a vetranie za rozumnú cenu a nízke prevádzkové náklady.
@@ -36,9 +36,9 @@ aboutUs.divider2;Realizovaných riešení
 aboutUs.divider3;Modelov na výber
 
 offering.title;Ponúkame
-offering.recovery;rekuperácie
-offering.air-conditioner;klimatizácie
-offering.heat-pump;tepelné čerpadlá
+offering.recovery;rekuperácia
+offering.air-conditioner;klimatizácia
+offering.heat-pump;tepelné čerpadlo
 offering.more;Viac info
 
 whyUs.title;Prečo zvoliť nás?
@@ -47,7 +47,7 @@ whyUs.desc1;Dobrá znalosť požiadaviek klienta a technických možností objek
 whyUs.title2;Produkty od popredných výrobcov
 whyUs.desc2;V našej ponuke nájdete výhradne certifikované, energeticky úsporné a inovatívne zariadenia s dlhodobou dostupnosťou náhradných dielov.
 whyUs.title3;Riešenia pre energetické úspory
-whyUs.desc3;Prinášame Vám rôzne riešenia pre zníženie nákladov za energie. Prepočítame orientačnú návratnosť.
+whyUs.desc3;Prinášame Vám rôzne riešenia pre zníženie nákladov za energie. Prepočítame orientačnú návratnosť. Vedeli ste, že dokurovaním s klimatizáciou môžete ušetriť značné financie?
 whyUs.title4;Dotácia na tepelné čerpadlo až 3400€
 whyUs.desc4;Sme zmluvným zhotoviteľom Slovenskej inovačnej a energetickej agentúry. Prevedieme Vás procesom vybavovania príspevku bez zbytočných byrokratických ťažkostí.
 whyUs.title5;Aj komfort je dôležitý
@@ -57,32 +57,33 @@ deal.title;Nezmeškajte jedinečnú akciu
 deal.assembly;od
 deal.order;Pozrieť katalóg
 
-contact.title;Kontaktujte nás;
-contact.form.title;Napíšte nám;
-contact.form.name;Meno;
-contact.form.email;Email;
-contact.form.phone;Tel. číslo;
-contact.form.message;Správa;
-contact.form.name.placeholder;napr. Jožko Mrkvička;
-contact.form.email.placeholder;vzor@email.com;
-contact.form.message.placeholder;Chcel by som si dohodnúť stretnutie...;
-contact.form.submitBtn;Poslať správu;
-contact.form.required;Povinné pole;
-contact.form.pattern;Nesprávny tvar;
-contact.form.successMsg;Správa bola úspešne odoslaná!;
-contact.form.failMsg;Odoslanie správy zlyhalo;
+contact.title;Kontaktujte nás
+contact.form.title;Napíšte nám
+contact.form.name;Meno
+contact.form.email;Email
+contact.form.phone;Tel. číslo
+contact.form.location;Lokalita
+contact.form.message;Správa
+contact.form.name.placeholder;napr. Jožko Mrkvička
+contact.form.email.placeholder;vzor@email.com
+contact.form.message.placeholder;Chcel by som si dohodnúť stretnutie...
+contact.form.submitBtn;Poslať správu
+contact.form.required;Povinné pole
+contact.form.pattern;Nesprávny tvar
+contact.form.successMsg;Správa bola úspešne odoslaná!
+contact.form.failMsg;Odoslanie správy zlyhalo
 contact.address;Kráľová nad Váhom 702, 92591 Kráľová nad Váhom
 
 footer.title;KLIMATEL Šaľa, s.r.o.
-footer.text1; © Klimatel - Dizajn zo;
-footer.text2;vytvoril ;
-footer.text3;Ilustračné obrázky navrhol Freepik;
+footer.text1; © Klimatel - Dizajn zo
+footer.text2;vytvoril 
+footer.text3;Ilustračné obrázky navrhol Freepik
 footer.address.title;Adresa
-footer.address.content;Kráľová nad Váhom 702,<br/>92591 Kráľová nad Váhom;
+footer.address.content;Kráľová nad Váhom 702,<br/>92591 Kráľová nad Váhom
 footer.phone.title;Telefónne číslo
 footer.phone.content;+421 910 870 087
 footer.email.title;Email
-footer.email.content;klimatel@klimatel.sk;
+footer.email.content;klimatel@klimatel.sk
 footer.links;Linky
 footer.link1;Domovská stránka
 footer.link2;Ako fungujú tepelné čerpadlá?

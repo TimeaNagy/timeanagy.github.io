@@ -22,13 +22,18 @@
 }
 
 .carousel-caption {
-  bottom: 45%;
+  top: 35%;
   color: var(--primary);
 
   & p {
     text-align: center;
     font-size: 5rem;
     font-weight: bold;
+  }
+
+  .subtitle {
+    font-size: 3rem;
+    font-weight: normal;
   }
 }
 
@@ -41,7 +46,7 @@
 
 .image-caption {
   position: absolute;
-  bottom: 51.25%;
+  top: 25%;
   width: 100%;
   color: var(--primary);
 
@@ -50,15 +55,24 @@
     font-size: 5rem;
     font-weight: bold;
   }
+
+  .subtitle {
+    font-size: 3rem;
+    font-weight: normal;
+  }
 }
 
 @media only screen and (max-width: $tablet-resolution) {
   .carousel-caption {
-    bottom: 35%;
+    top: 25%;
   }
 
   .carousel-caption p {
     font-size: 3em;
+  }
+
+  .carousel-caption .subtitle, .image-caption .subtitle {
+    font-size: 1.5em;
   }
 }
 
@@ -72,7 +86,7 @@
   }
 
   .carousel-caption {
-    bottom: 50;
+    top: 20%;
     left: auto;
     right: auto;
     width: 100%;
@@ -82,12 +96,17 @@
     font-size: 2em;
   }
 
+  .carousel-caption .subtitle, .image-caption .subtitle {
+    margin-top: -20px;
+    font-size: 1em;
+  }
+
   .d-none {
     display: block !important;
   }
 
   .image-caption { 
-    bottom: 30%;
+    top: 40%;
 
     p {
       font-size: 2em;

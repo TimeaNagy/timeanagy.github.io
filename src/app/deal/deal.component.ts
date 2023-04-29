@@ -5,7 +5,8 @@ type Deal = {
   price: number,
   kw: number, 
   name: string,
-  oldPrice: number
+  oldPrice: number,
+  id: number
 }
 
 @Component({

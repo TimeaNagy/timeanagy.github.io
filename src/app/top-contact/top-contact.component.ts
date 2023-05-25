@@ -12,7 +12,7 @@ export class TopContactComponent {
   constructor(private router: Router) {
     this.router.events.subscribe((val) => {
       if (val instanceof NavigationEnd) {
-        this.href = val.url;
+        this.href = val.url.substring(0, val.url.indexOf('?'));
       }
     })
   }

@@ -17,7 +17,7 @@ export class NavigationComponent {
   constructor(private translate: TranslateService, private cookie: CookieService, private ccService: NgcCookieConsentService, private router: Router) {
     this.router.events.subscribe((val) => {
       if (val instanceof NavigationEnd) {
-        this.href = val.url;
+        this.href = val.url.substring(0, val.url.indexOf('?'));
       }
     })
   }

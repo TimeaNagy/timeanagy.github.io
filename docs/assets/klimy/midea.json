@@ -1,0 +1,35 @@
+[{
+    "name": "Midea Xtreme Save",
+    "oldPrice": 804,
+    "price": 599,
+    "id": 1
+
+},
+{
+    "name": "Midea Xtreme Save Pro",
+    "oldPrice": 924,
+    "price": 739,
+    "id": 2
+
+},
+{
+    "name": "Midea Breezeless",
+    "oldPrice": 1152,
+    "price": 921,
+    "id": 3
+
+},
+{
+    "name": "Midea All Easy Pro",
+    "oldPrice": 1008,
+    "price": 806,
+    "id": 4
+
+},
+{
+    "name": "Midea Oasis Plus",
+    "oldPrice": 1260,
+    "price": 1008,
+    "id": 5
+
+}]

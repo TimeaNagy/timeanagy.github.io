@@ -1,0 +1,48 @@
+[{
+    "name": "LG Standard",
+    "oldPrice": 1126,
+    "price": 901,
+    "id": 7
+
+},
+{
+    "name": "LG Standard Plus",
+    "oldPrice": 1329,
+    "price": 1063,
+    "id": 8
+
+},
+{
+    "name": "LG DeLuxe",
+    "oldPrice": 1832,
+    "price": 1465,
+    "id": 9
+
+},
+{
+    "name": "LG Artcool Black",
+    "oldPrice": 1904,
+    "price": 1523,
+    "id": 10
+
+},
+{
+    "name": "LG Artcool Beige",
+    "oldPrice": 1904,
+    "price": 1523,
+    "id": 11
+
+},
+{
+    "name": "LG Prestige",
+    "oldPrice": 2588,
+    "price": 2070,
+    "id": 12
+
+},
+{
+    "name": "LG Gallery",
+    "oldPrice": 2527,
+    "price": 2021,
+    "id": 13
+	}]

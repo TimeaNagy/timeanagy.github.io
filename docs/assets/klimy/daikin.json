@@ -1,0 +1,76 @@
+[{
+    "name": "Daikin Sensira New",
+    "oldPrice": 1134,
+    "price": 964,
+    "id": 14
+
+},
+{
+    "name": "Daikin Comfora New",
+    "oldPrice": 1526,
+    "price": 1298,
+    "id": 15
+
+},
+{
+    "name": "Daikin Perfera New",
+    "oldPrice": 2517,
+    "price": 2140,
+    "id": 16
+
+},
+{
+    "name": "Daikin Ururu Sarara",
+    "oldPrice": 4383,
+    "price": 3727,
+    "id": 17
+
+},
+{
+    "name": "Daikin Emura 3 White",
+    "oldPrice": 3518,
+    "price": 2991,
+    "id": 18
+
+},
+{
+    "name": "Daikin Emura 3 Silver",
+    "oldPrice": 3640,
+    "price": 3096,
+    "id": 19
+
+},
+{
+    "name": "Daikin Emura 3 Black",
+    "oldPrice": 3561,
+    "price": 3028,
+    "id": 20
+},
+{
+    "name": "Daikin Stylish White",
+    "oldPrice": 3235,
+    "price": 2750,
+    "id": 21
+
+},
+{
+    "name": "Daikin Stylish Silver",
+    "oldPrice": 3340,
+    "price": 2840,
+    "id": 22
+
+},
+{
+    "name": "Daikin Stylish Black",
+    "oldPrice": 3272,
+    "price": 2781,
+    "id": 23
+
+},
+{
+    "name": "Daikin Stylish Blackwood",
+    "oldPrice": 3452,
+    "price": 2935,
+    "id": 24
+
+    }]

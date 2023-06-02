@@ -18,6 +18,7 @@ export class HeaderComponent {
         } else {
           this.href = val.url;
         }
+        this.href = this.href.replace('/', '');
       }
     })
   }

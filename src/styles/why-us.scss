@@ -68,9 +68,14 @@
 }
 
 @media only screen and (max-width: $mobile-resolution) {
-  .background-brands, .background, #why-us .text {
-    height: 400px;
-    min-height: 400px;
+  #why-us .text {
+    height: 500px;
+    min-height: 500px;
+  }
+
+  .background-brands, .background {
+    height: 300px;
+    min-height: 300px;
   }
 
   .background-secondary {

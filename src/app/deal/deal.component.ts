@@ -1,9 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
-type Deal = {
+export type Deal = {
   price: number,
-  kw: number, 
+  kw?: number, 
   name: string,
   oldPrice: number,
   id: number

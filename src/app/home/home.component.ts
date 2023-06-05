@@ -1,18 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html'
 })
-export class HomeComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-    const el = document.getElementById('top');
-    if (el) {
-        el.scrollIntoView({behavior: 'smooth'});
-    }
-  }
-
+export class HomeComponent {
 }

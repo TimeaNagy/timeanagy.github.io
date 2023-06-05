@@ -7,7 +7,7 @@ import { NavigationEnd, Router } from '@angular/router';
   selector: 'app-air-conditioner',
   templateUrl: './air-conditioner.component.html'
 })
-export class AirConditionerComponent implements OnInit {
+export class AirConditionerComponent {
   deals: Deal[] = [];
   href = '';
 
@@ -31,13 +31,5 @@ export class AirConditionerComponent implements OnInit {
 
       }
     })
-  }
-
-  ngOnInit(): void {
-    const el = document.getElementById('top');
-    console.log(el)
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    }
   }
 }

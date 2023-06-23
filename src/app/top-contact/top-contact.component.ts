@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
+import { EMAIL, PHONE } from '../contact/contact.component';
 
 @Component({
   selector: 'app-top-contact',
@@ -8,6 +9,8 @@ import { NavigationEnd, Router } from '@angular/router';
 export class TopContactComponent {
 
   public href: string = "";
+  phone = PHONE;
+  email = EMAIL;
 
   constructor(private router: Router) {
     this.router.events.subscribe((val) => {

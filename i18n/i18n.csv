@@ -17,8 +17,6 @@ cookiePolicy;Zásady používania súborov cookie
 
 topContact.address1;Kráľová nad Váhom 702, 
 topContact.address2;92591 Kráľová nad Váhom
-topContact.email;klimatel@klimatel.sk
-topContact.tel;+421 910 870 087
 topContact.hours;Po-Pia: 8:00 - 15:30
 
 header.header1;rekuperácia
@@ -83,6 +81,4 @@ footer.text3;Ilustračné obrázky navrhol Freepik
 footer.address.title;Adresa
 footer.address.content;Kráľová nad Váhom 702,<br/>92591 Kráľová nad Váhom
 footer.phone.title;Telefónne číslo
-footer.phone.content;+421 910 870 087
 footer.email.title;Email
-footer.email.content;klimatel@klimatel.sk

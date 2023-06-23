@@ -42,10 +42,12 @@
     font-size: 15px;
 }
 
-.link:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--text);
-    cursor: pointer;
+.link {
+    color: var(--primary-text);
+}
+
+.link:hover, .link:hover span {
+    color: var(--secondary) !important;
 }
 
 .social.mat-icon {

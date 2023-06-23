@@ -4,12 +4,18 @@ import { MatDialog } from '@angular/material/dialog';
 import { MailService } from './mail-service.service';
 import { MessageDialogComponent } from './message-dialog/message-dialog.component';
 
+export const PHONE = '+421 910 870 087';
+export const EMAIL = 'klimatel@klimatel.sk';
+
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html'
 })
 export class ContactComponent {
   formGroup: FormGroup;
+
+  phone = PHONE;
+  email = EMAIL;
 
   constructor(private dialog: MatDialog, private mailService: MailService) {
 

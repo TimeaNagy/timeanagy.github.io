@@ -9,6 +9,8 @@
       <img class="navbar-brand-img desktop-only" src="assets/images/logo.png">
       <img class="navbar-brand-img mobile-only" src="assets/images/logo-black.png">
     </a>
+    <div class="mobile-only phone-number"><mat-icon>phone</mat-icon><span><a [href]="'tel:' + phone">{{phone}}</a></span></div>
+
     <div class="collapse navbar-collapse" id="primary-menu">
       <ul *ngIf="this.href == '/'" class="nav navbar-nav ms-auto nav-no-opacity">
         <app-navigation-item title="header"></app-navigation-item>

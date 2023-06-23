@@ -3,6 +3,7 @@ import { NavigationEnd, Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { NgcCookieConsentService } from 'ngx-cookieconsent';
 import { CookieService } from '../cookie.service';
+import { PHONE } from '../contact/contact.component';
 
 @Component({
   selector: 'app-navigation',
@@ -13,6 +14,8 @@ export class NavigationComponent {
 
   public href: string = "";
   toClose: boolean = false;
+
+  phone = PHONE;
 
   constructor(private translate: TranslateService, private cookie: CookieService, private ccService: NgcCookieConsentService, private router: Router) {
     this.router.events.subscribe((val) => {

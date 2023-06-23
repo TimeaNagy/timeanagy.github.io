@@ -52,7 +52,7 @@
             <mat-icon class="icon-display">mail_outline</mat-icon>
           </div>
           <div class="col-md-10 col-sm-10 contact-text">
-            <p>{{ 'topContact.email' | translate }}</p>
+            <p><a [href]="'mailto:' + email">{{ email }}</a></p>
           </div>
         </div>
         <div class="row">
@@ -60,7 +60,7 @@
             <mat-icon class="icon-display">phone</mat-icon>
           </div>
           <div class="col-md-10 col-sm-10 contact-text">
-            <p>{{ 'topContact.tel' | translate }}</p>
+            <p><a [href]="'tel:' + phone">{{phone}}</a></p>
           </div>
         </div>
         <div class="row">

@@ -18,6 +18,12 @@ export class AppComponent implements OnInit {
     private cookie: CookieService,
     private metaTagService: Meta,
     private titleService: Title) {
+
+    // Redirect http to https
+    if (!/https/.test(window.location.protocol) && /http/.test(window.location.protocol) && !/localhost/.test(window.location.href)) {
+      window.location.href = window.location.href.replace('http:', 'https:');   
+    }
+
     // Translate initialization
     translate.setTranslation(this.currentLang, defaultLanguage);
     translate.setDefaultLang(this.currentLang);
